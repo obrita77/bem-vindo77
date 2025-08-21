@@ -20,7 +20,7 @@ class MeuApp(BoxLayout):
         
         # Título do aplicativo (Label estilizado)
         titulo = Label(
-            text="App de Boas-Vindas",  # Texto do título
+            text="HOIAAA JA COLA",  # Texto do título
             font_size='24sp',  # Tamanho da fonte (24 scale-independent pixels)
             bold=True,  # Texto em negrito
             color=(0.2, 0.4, 0.6, 1),  # Cor do texto (azul)
@@ -30,7 +30,7 @@ class MeuApp(BoxLayout):
         
         # Campo de texto para digitar o nome
         self.text_input = TextInput(
-            hint_text="Digite seu nome aqui...",  # Texto de placeholder
+            hint_text="Digite seu nome aqui parceiro...",  # Texto de placeholder
             size_hint=(1, 0.2),  # Ocupa 100% da largura e 20% da altura
             font_size='18sp',  # Tamanho da fonte
             multiline=False,  # Permite apenas uma linha de texto
@@ -73,11 +73,11 @@ class MeuApp(BoxLayout):
         # Verifica se o campo não está vazio
         if nome:
             # Se há nome, exibe mensagem de boas-vindas
-            self.mensagem.text = f"Bem-vindo(a), {nome}!"
+            self.mensagem.text = f"obrita ta on, {nome}!"
             self.mensagem.color = (0, 0.5, 0, 1)  # Muda cor para verde (sucesso)
         else:
             # Se está vazio, exibe mensagem de erro
-            self.mensagem.text = "Por favor, digite seu nome."
+            self.mensagem.text = "yae man, digite seu nome ae parceiro."
             self.mensagem.color = (0.8, 0, 0, 1)  # Muda cor para vermelho (erro)
 
 # Classe do aplicativo que herda de App
